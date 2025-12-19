@@ -193,14 +193,6 @@ Reusable helper functions.
 
 ---
 
-## 13. `types/` – TypeScript Types
-
-Extends and defines shared types.
-
-* Express request extensions
-* Auth payload types
-* Common interfaces
-
 ---
 
 ## 14. `jobs/` – Background Jobs
@@ -210,8 +202,6 @@ Scheduled or delayed tasks.
 * Payment reminders
 * Notification batches
 * Database backups
-
-Usually run using **Bull / Agenda / Cron**.
 
 ---
 
@@ -236,10 +226,6 @@ Benefits:
 
 * Versioned schema changes
 
-### `seeds/`
-
-* Initial test/demo data
-
 ### `connection.js`
 
 * DB initialization logic
@@ -247,17 +233,6 @@ Benefits:
 ---
 
 ## 17. `tests/` – Automated Testing
-
-* **Unit tests** → Services & utils
-* **Integration tests** → API endpoints
-* **Fixtures** → Mock data
-
----
-
-## 18. `docs/` – API Documentation
-
-* **swagger.yaml** → OpenAPI spec
-* **api-examples.md** → Real API usage samples
 
 ---
 
