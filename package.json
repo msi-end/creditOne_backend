@@ -1,11 +1,29 @@
 {
-  "name": "creditone_backend",
+  "name": "creditone-backend",
   "version": "1.0.0",
-  "description": "This document explains the purpose and responsibility of each folder and file in the backend architecture. This structure follows **clean architecture**, **separation of concerns**, and is suitable for **scalable production-grade Node.js + TypeScript applications**.",
-  "main": ".eslintrc.js",
+  "description": "Scalable Node.js backend built with clean architecture, separation of concerns, and production-ready best practices for ledger/CRM systems.",
+  "main": "src/server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "start": "node src/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"No tests configured yet\""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "MSI",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "redis": "^4.6.13",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
