@@ -1,0 +1,11 @@
+{
+  "name": "creditone_backend",
+  "version": "1.0.0",
+  "description": "This document explains the purpose and responsibility of each folder and file in the backend architecture. This structure follows **clean architecture**, **separation of concerns**, and is suitable for **scalable production-grade Node.js + TypeScript applications**.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
